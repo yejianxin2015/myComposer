@@ -1,0 +1,35 @@
+{
+    "name": "ye/phputils",
+    "description":  "the utils for ejiayou projects!",
+    "keywords": ["php", "tools", "utils"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Magina Yin",
+            "email": "757599709@qq.com",
+            "homepage": "https://github.com/yejianxin2015",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "monolog/monolog": "1.*",
+        "maatwebsite/excel": "~2.1.0",
+        "php": ">=7.0.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "@stable"
+    },
+    "autoload": {
+        "classmap": [
+           
+        ],
+        "psr-4": {
+            "Ejiayou\\PHP\\Utils\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Ejiayou\\PHP\\Utils\\Tests\\": "tests/"
+        }
+    }
+}
