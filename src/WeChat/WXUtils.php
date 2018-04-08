@@ -552,6 +552,7 @@ class WXUtils {
      * 生成带参数二维码
      * @param $scene_str
      * @return string
+     * ceshi
      */
     protected static function makeQRCode($scene_str){
         $access_token = self::getAccessToken();
